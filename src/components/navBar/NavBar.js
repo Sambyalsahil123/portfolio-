@@ -1,8 +1,9 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import Logo from "../../assets/icons/decpti.webp";
+import ARC from "../../assets/icons/ARC.webp";
 import "./NavBar.css";
+import { Image } from "react-bootstrap";
 
 const NavBar = () => {
   return (
@@ -14,7 +15,14 @@ const NavBar = () => {
         className="animate-navbar nav-theme justify-content-between"
         variant="dark"
       >
-        <Navbar.Brand href="#home">SAHIL</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <Image
+            src={ARC}
+            alt="arc"
+            rounded
+            className="arc image-style m-1"
+          ></Image>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">

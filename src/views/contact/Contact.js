@@ -14,7 +14,7 @@ const Contact = () => {
           <Col className="d-flex justify-content-center flex-wrap">
             <div className="m-2">
               <a
-                href="rajputsahilsambyals@gmail.com"
+                href="mailto:rajputsahilsambyals@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -26,6 +26,7 @@ const Contact = () => {
                 </Button>
               </a>
             </div>
+
             <div className="m-2">
               <a
                 href="https://www.linkedin.com/in/sahil-sambyal-3210go/"

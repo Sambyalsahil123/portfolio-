@@ -13,6 +13,9 @@ import L_NETLIFY from "../../assets/img/skills/netlify-icon.svg";
 import L_FIREBASE from "../../assets/img/skills/firebase-icon.svg";
 import L_VERCEL from "../../assets/img/skills/logo-vercel.svg";
 import L_TAILWIND from "../../assets/img/skills/tailwindcss-icon.svg";
+import L_DEVOPS from "../../assets/img/skills/devops.svg";
+import L_MONGODB from "../../assets/img/skills/mongodb.svg";
+import L_GITHUB from "../../assets/img/skills/github.svg";
 
 export const skills = {
   frontend: [
@@ -87,12 +90,7 @@ export const skills = {
       imgSrc: L_NETLIFY,
       skillName: "Netlify",
     },
-    {
-      link: "https://pages.github.com/",
-      imgAltText: "GitHub Pages",
-      imgSrc: L_GITHUB_PAGES,
-      skillName: "GitHub Pages",
-    },
+
     {
       link: "https://vercel.com/",
       imgAltText: "Vercel",
@@ -108,9 +106,9 @@ export const skills = {
   ],
   databases: [
     {
-      link: "https://mongodb.google.com/",
+      link: "https://mongodb.com/",
       imgAltText: "Mongo Database",
-      // imgSrc: L_FIREBASE,
+      imgSrc: L_MONGODB,
       skillName: "Mongo Database",
     },
     {
@@ -132,6 +130,14 @@ export const skills = {
       imgAltText: "GIT",
       imgSrc: L_GIT,
       skillName: "GIT",
+    },
+  ],
+  devOps: [
+    {
+      link: "https://digitalocean.com/",
+      imgAltText: "DevOps",
+      imgSrc: L_DEVOPS,
+      skillName: "Digital Ocean Server(Ubuntu&Linux)",
     },
   ],
 };

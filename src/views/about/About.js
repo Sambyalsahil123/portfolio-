@@ -29,7 +29,8 @@ const About = () => {
                 Web Developer with expertise of React.js, Redux, Cloud
                 Firestore, HTML and CSS. Also have a experience in React Native
                 for Mobile Application (build App in react native like a Rapido
-                App).
+                App) I also work in Digital Ocean server as a DevOps (Linux,
+                Ubuntu) .
                 <br />
                 <br />
                 I am dedicate and passionate about technologies

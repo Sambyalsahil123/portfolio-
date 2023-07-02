@@ -25,6 +25,9 @@ import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_FIREBASE from "../../assets/img/skills/firebase-icon.svg";
+import Mobileshop from "../../assets/img/projects/Mobileshop.ug.png";
+import FUN from "../../assets/img/projects/FUN.png";
+import VEGAMOVIES from "../../assets/img/projects/VEGAMOVIES.png";
 
 // Custom timline theme
 const customTheme = createTheme(themes.default, {
@@ -53,7 +56,7 @@ const ProjectTimeline = () => {
             date="3rd Jan, 2023"
             className="text-center"
             text="MOBILESHOP.UG"
-            // src={}
+            src={Mobileshop}
             alt="MOBILESHOP.UG"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -80,8 +83,8 @@ const ProjectTimeline = () => {
                           <li>
                             Provide best quality of products low price rate.
                           </li>
-                          <li>Powered by Pure JavaScript and CSS</li>
-                          <li>Respoisive Design</li>
+                          <li>Powered by Using React js and Bootstrap</li>
+                          <li>Respoisive Design(PWA)</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -89,8 +92,8 @@ const ProjectTimeline = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
+                                src={L_REACT}
+                                alt="REACT JS"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
@@ -100,25 +103,25 @@ const ProjectTimeline = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
+                                src={L_BOOTSTRAP}
+                                alt="BOOTSTRAP"
                                 rounded
                                 className="image-style m-1"
-                              ></Image>{" "}
+                              ></Image>
                               CSS3
                             </span>
                           </li>
-                          <li>
+                          {/* <li>
                             <span className="p-2">
                               <Image
-                                src={L_JAVASCRIPT}
+                                src={L_}
                                 alt="JavaScript"
                                 rounded
                                 className="image-style1 m-1"
-                              ></Image>{" "}
+                              ></Image>
                               JavaScript
                             </span>
-                          </li>
+                          </li> */}
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -136,6 +139,90 @@ const ProjectTimeline = () => {
           {/* // */}
 
           <ImageEvent
+            date="18th feb, 2023"
+            className="text-center"
+            text="Vega Movies"
+            src={VEGAMOVIES}
+            alt="Vega movie"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> Movie Listings: The
+                        website displays a comprehensive list of movies,
+                        including their titles, release dates, genres, ratings,
+                        and brief descriptions.The website allows to use search
+                        functionality only for ADMIN for movies
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Powered by React js, Bootstrap .</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_BOOTSTRAP}
+                                alt=" BOOTSTRAP"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              BOOTSTRAP
+                            </span>
+                          </li>
+
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="REACT JS"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              REACT JS
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://vegamovies-five.vercel.app/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+          {/* <ImageEvent
             date="18th feb, 2023"
             className="text-center"
             text="Expense Tracker App"
@@ -238,11 +325,11 @@ const ProjectTimeline = () => {
                 </UrlButton>
               </div>
             </div>
-          </ImageEvent>
+          </ImageEvent> */}
 
           {/* QuizApp */}
 
-          <ImageEvent
+          {/* <ImageEvent
             date="9th Dec, 2022"
             className="text-center"
             text="Quiz App"
@@ -332,11 +419,11 @@ const ProjectTimeline = () => {
                 </UrlButton>
               </div>
             </div>
-          </ImageEvent>
+          </ImageEvent> */}
 
           {/* // */}
 
-          <ImageEvent
+          {/* <ImageEvent
             date="9th June, 2022"
             className="text-center"
             text="Music List App"
@@ -413,6 +500,91 @@ const ProjectTimeline = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton href="" target="_blank">
+                  SEE LIVE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent> */}
+          <ImageEvent
+            date="9th June, 2022"
+            className="text-center"
+            text="Fun App"
+            src={FUN}
+            alt=" App"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Rem, odit! Ipsam corrupti
+                        ipsa veritatis tenetur dolorem quo at veniam eum, saepe
+                        commodi reiciendis laudantium harum? Vero labore
+                        incidunt odio tempore.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li> JavaScript CRUD operation</li>
+                          <li>Attractive UI, Easy to use.</li>
+                          <li>Powered by JavaScript, HTML and CSS.</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_JAVASCRIPT}
+                                alt="JavaScript"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              JavaScript
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://funapp-made-by-sahil.vercel.app/"
+                  target="_blank"
+                >
                   SEE LIVE
                 </UrlButton>
               </div>
